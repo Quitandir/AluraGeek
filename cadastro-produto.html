@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="index.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="interno">
+            <div class="topo">
+                
+                <div class="direita">	
+                    <img id="logo" src="imagens/Logo.png">  
+                    
+                    <img id="lupa-mobile" src="imagens/lupa.png">     
+                    <div id="barra-pesquisa">
+                        <input id="campo-pesquisa" type="text" placeholder="O que deseja encontrar?">
+                        <img id="lupa" src="imagens/lupa.png"> 
+                    </div>
+                   
+                </div>
+                <button id="botao-menu-administrador">Menu administrador</button>
+            </div>
+        </div>
+        
+    </header>
+    <main>
+        <div>            
+            <form class="login-cadastro-produto">
+                <p id="add-novo-produto">Adicionar Novo Produto</p>
+                <label id="placeholder" for="url-imagem">URL da imagem</label>
+                <input type="text" id="url-imagem">
+                <label id="placeholder" for="categoria">Categoria</label>
+                <input type="text" id="categoria" placeholder="Consoles">
+                <label id="placeholder" for="nome-produto">Nome do produto</label>
+                <input type="text" id="nome-produto" placeholder="Produto XYZ">
+                <label id="placeholder" for="preco-produto">Preço do produto</label>
+                <input type="text" id="preco-produto" placeholder="R$60,00">
+                <textarea id="descricao-produto" placeholder="Descrição do produto" rows="4" cols="65"></textarea>
+                <button id="botao-add-produto">Adicionar produto</button>
+            </form>      
+        </div>
+    </main>
+    
+    <footer>
+        <div class="rodape">
+            <div class="conteudo">
+                <img id="logo-rodape" src="imagens/Logo.png">
+                <div class="links">
+                    <ul>
+						<li class="item-lista"><a href="">Quem somos nós</a></li>
+						<li class="item-lista"><a href="">Política de privacidade</a></li>
+						<li class="item-lista"><a href="">Programa de fidelidade</a></li>
+						<li class="item-lista"><a href="">Nossas lojas</a></li>
+						<li class="item-lista"><a href="">Quero ser franqueado</a></li>
+						<li class="item-lista"><a href="">Anuncie aqui</a></li>
+					</ul>
+                </div>
+                <div class="contato">
+                    <form>
+                        <p class="fale-conosco">Fale conosco</p>
+                        <label id="placeholder" for="nome-contato">Nome</label>
+                        <input type="text" id="nome-contato" placeholder="André Lisboa">
+                        <textarea class="contato-mensagem" placeholder="Escreva sua mensagem" rows="4" cols="65"></textarea>
+                        <button id="enviar-mensagem">Enviar mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="direitos-reservados">
+            <p class="desenvolvido-por">Desenvolvido por Moisés Carniel</p>
+            <p class="desenvolvido-por">2022</p>
+        </div>
+    </footer>
+</body>
+</html>
