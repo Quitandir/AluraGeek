@@ -43,3 +43,11 @@ O desafio foi dividido em três estágios dividios em semana 1, semana 2 e seman
 
 Ao final desse mês, percebo que, por mais que não tenha conseguido concluir todas os desafios no prazo estipulado, o volume de conhecimento que adquiri é enorme. Ter que reproduzir visualmente e aplicar JS para fazer a validação dos formulários colocou em prova tudo que havia estudado até o momento. Ao passo que estudarei mais seguirei desenvolvendo o projeto para concluir as funcionalidades que ainda não sei como fazer.
 
+---
+
+## Melhorias a serem desenvolvidas
+
+* Separação do CSS.
+* Aperfeiçoamento das separações do HTML conforme boas práticas.
+* Desenvolvimento da barra de busca com os ítens em index.html.
+* Aperfeiçoamento das validações através de refatoração. 
