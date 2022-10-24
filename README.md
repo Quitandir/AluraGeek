@@ -25,6 +25,21 @@ Para isso eles estão solicitando a nossa ajuda como desenvolvedores para criar 
 
 ## Tecnologias
 
-- HTML e CSS
-- ???
+- HTML
+- CSS
+-JS
+
+---
+
+## Experiência
+
+O desafio foi dividido em três estágios dividios em semana 1, semana 2 e semana 3 e 4. 
+
+**A primeira semana** estava voltada para o desenvolvimento da page do cliente. Usando HTML  e CSS, reproduzi o modelo disponibilizado no Figma. Consegui construir algumas sessões do HTML resgatando aulas já feitas em diferentes cursos na Alura, porém algumas partes tive que pesquisar diferentes soluções de HTML para tentar deixar coerente com boas práticas da linguagem. 
+
+**A segunda semana** foi voltada para o desenvolvimento de páginas pertinentes ao adminastrador da webstore, como página de login, página de cadastro de novos produtos, página de edição dos produtos, etc. Nesse período, por mais que tenham sido mais páginas, o reaproveitamento de códigos, tanto HTML, quanto CSS, deixaram o trabalho bem mais dinâmico. Nessa semana também foquei em adaptar o view port das páginas para terem uma versão mobile. O desafio mencionava também adaptações para tablets, mas considerando o tempo do desafio, percebi que não teria tempo e atrasaria as tarefas da semana 3 e 4.
+
+**As semanas três e quatro** foram dedicadas ao desenvolvimento das funcionalidades das páginas: validações de login, inclusão de novos produtos, barra de pesquisa e envio de mensagens. Para essas funcionalidades, tive que parar de desenvolver e procurar por cursos que me ajudassem a fazer as validações e integrações desejadas. Até o atual momento não estudei nada sobre back-end, logo não consegui fazer parte das funcionalidades a tempo. Entretanto, a parte das validações de formulários foram construídas com sucesso. Apliquei o que aprendi no curso de Regex para validar os formulários, juntamente com o que já conhecia de JS. 
+
+Ao final desse mês, percebo que, por mais que não tenha conseguido concluir todas os desafios no prazo estipulado, o volume de conhecimento que adquiri é enorme. Ter que reproduzir visualmente e aplicar JS para fazer a validação dos formulários colocou em prova tudo que havia estudado até o momento. Ao passo que estudarei mais seguirei desenvolvendo o projeto para concluir as funcionalidades que ainda não sei como fazer.
 
