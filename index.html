@@ -22,7 +22,7 @@
                     </div>
                     <img id="lupa-mobile" src="imagens/lupa.png">
                 </div>
-                <button class="botao-login"><a href="https://quitandir.github.io/alurachallenge/home-login.html">Login</a></button>
+                <button class="botao-login"><a href="home-login.html">Login</a></button>
             </div>
         </div>
         <div id="banner">
@@ -46,37 +46,37 @@
                     <img class="imagem-produto" src="imagens/star-wars-1.png">
                     <p class="nome-produto">Produto XYZ</p>
                     <p class="preco-produto">R$60,00</p>
-                    <a href="https://quitandir.github.io/alurachallenge/produto-descricao.html" class="link-produto">Ver produto</a>
+                    <a href="produto-descricao.html" class="link-produto">Ver produto</a>
                 </div>
                 <div class="produto">
                     <img class="imagem-produto" src="imagens/star-wars-2.png">
                     <p class="nome-produto">Produto XYZ</p>
                     <p class="preco-produto">R$60,00</p>
-                    <a href="https://quitandir.github.io/alurachallenge/produto-descricao.html" class="link-produto">Ver produto</a>
+                    <a href="produto-descricao.html" class="link-produto">Ver produto</a>
                 </div>
                 <div class="produto">
                     <img class="imagem-produto" src="imagens/star-wars-3.png">
                     <p class="nome-produto">Produto XYZ</p>
                     <p class="preco-produto">R$60,00</p>
-                    <a href="https://quitandir.github.io/alurachallenge/produto-descricao.html" class="link-produto">Ver produto</a>
+                    <a href="produto-descricao.html" class="link-produto">Ver produto</a>
                 </div>
                 <div class="produto">
                     <img class="imagem-produto" src="imagens/star-wars-4.png">
                     <p class="nome-produto">Produto XYZ</p>
                     <p class="preco-produto">R$60,00</p>    
-                    <a href="https://quitandir.github.io/alurachallenge/produto-descricao.html" class="link-produto">Ver produto</a>
+                    <a href="produto-descricao.html" class="link-produto">Ver produto</a>
                 </div>
                 <div class="produto">
                     <img class="imagem-produto" src="imagens/star-wars-5.png">
                     <p class="nome-produto">Produto XYZ</p>
                     <p class="preco-produto">R$60,00</p>
-                    <a href="https://quitandir.github.io/alurachallenge/produto-descricao.html" class="link-produto">Ver produto</a>
+                    <a href="produto-descricao.html" class="link-produto">Ver produto</a>
                 </div>
                 <div class="produto">
                     <img class="imagem-produto" src="imagens/star-wars-6.png">
                     <p class="nome-produto">Produto XYZ</p>
                     <p class="preco-produto">R$60,00</p>
-                    <a href="https://quitandir.github.io/alurachallenge/produto-descricao.html" class="link-produto">Ver produto</a>
+                    <a href="produto-descricao.html" class="link-produto">Ver produto</a>
                 </div>
             </div>               
         </div>
@@ -193,8 +193,10 @@
                     <form>
                         <p class="fale-conosco">Fale conosco</p>
                         <label id="placeholder" for="nome-contato">Nome</label>
-                        <input type="text" id="nome-contato" placeholder="André Lisboa">
+                        <input type="text" id="nome-contato" placeholder="André Lisboa" max="40">
+                        <span class="erro-rodape-nome"></span>
                         <textarea class="contato-mensagem" placeholder="Escreva sua mensagem" rows="4" cols="65"></textarea>
+                        <span class="erro-rodape-mensagem"></span> 
                         <button id="enviar-mensagem">Enviar mensagem</button>
                     </form>
                 </div>
@@ -206,5 +208,7 @@
         </div>
     </footer>
 </body>
+<script src="./js/validacao-rodape.js"></script>
+
 </html>
 

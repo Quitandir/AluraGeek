@@ -33,15 +33,28 @@
         <div>            
             <form class="login-cadastro-produto">
                 <p id="add-novo-produto">Adicionar Novo Produto</p>
-                <label id="placeholder" for="url-imagem">URL da imagem</label>
-                <input type="text" id="url-imagem">
-                <label id="placeholder" for="categoria">Categoria</label>
+
+                <label class="picture" for="picture__input" tabIndex="0">
+                        <span class="picture__image"></span>
+                </label>
+                <input type="file" name="picture__input" id="picture__input">
+                <span class="erro-imagem-cadastro"></span>                  
+
+                <label id="placeholder" for="categoria">Categoria</label>                               
                 <input type="text" id="categoria" placeholder="Consoles">
+                <span class="erro-categoria-cadastro"></span>   
+
                 <label id="placeholder" for="nome-produto">Nome do produto</label>
                 <input type="text" id="nome-produto" placeholder="Produto XYZ">
+                <span class="erro-nome-cadastro"></span>   
+
                 <label id="placeholder" for="preco-produto">Preço do produto</label>
-                <input type="text" id="preco-produto" placeholder="R$60,00">
+                <input type="text" id="preco-produto" step="any" placeholder="R$60,00">
+                <span class="erro-preco-cadastro"></span>   
+
                 <textarea id="descricao-produto" placeholder="Descrição do produto" rows="4" cols="65"></textarea>
+                <span class="erro-descricao-cadastro"></span>   
+
                 <button id="botao-add-produto">Adicionar produto</button>
             </form>      
         </div>
@@ -65,8 +78,10 @@
                     <form>
                         <p class="fale-conosco">Fale conosco</p>
                         <label id="placeholder" for="nome-contato">Nome</label>
-                        <input type="text" id="nome-contato" placeholder="André Lisboa">
+                        <input type="text" id="nome-contato" placeholder="André Lisboa" max="40">
+                        <span class="erro-rodape-nome"></span>
                         <textarea class="contato-mensagem" placeholder="Escreva sua mensagem" rows="4" cols="65"></textarea>
+                        <span class="erro-rodape-mensagem"></span> 
                         <button id="enviar-mensagem">Enviar mensagem</button>
                     </form>
                 </div>
@@ -78,4 +93,8 @@
         </div>
     </footer>
 </body>
+<script src="./js/validacao-rodape.js"></script>
+<script src="./js/"></script>
+<script src="./js/validacao-cadastro-produto.js"></script>
+
 </html>

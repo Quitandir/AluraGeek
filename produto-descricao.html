@@ -101,8 +101,10 @@
                     <form>
                         <p class="fale-conosco">Fale conosco</p>
                         <label id="placeholder" for="nome-contato">Nome</label>
-                        <input type="text" id="nome-contato" placeholder="André Lisboa">
+                        <input type="text" id="nome-contato" placeholder="André Lisboa" max="40">
+                        <span class="erro-rodape-nome"></span>
                         <textarea class="contato-mensagem" placeholder="Escreva sua mensagem" rows="4" cols="65"></textarea>
+                        <span class="erro-rodape-mensagem"></span> 
                         <button id="enviar-mensagem">Enviar mensagem</button>
                     </form>
                 </div>
@@ -114,5 +116,7 @@
         </div>
     </footer>
 </body>
+<script src="./js/validacao-rodape.js"></script>
+
 </html>
 
