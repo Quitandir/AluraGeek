@@ -1,0 +1,128 @@
+{
+    "produtos": [
+      {
+        "categoria": "Star Wars",
+        "nome": "Produto XYZ",
+        "preco": "R$60,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam<",
+        "imagem": "https://github.com/Quitandir/alurachallenge/blob/main/imagens/star-wars-1.png?raw=true?raw=true"
+      },
+      {
+        "categoria": "Star Wars",
+        "nome": "Produto XYZ",
+        "preco": "R$60,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam<",
+        "imagem": "https://github.com/Quitandir/alurachallenge/blob/main/imagens/star-wars-2.png?raw=true"
+      },
+      {
+        "categoria": "Star Wars",
+        "nome": "Produto XYZ",
+        "preco": "R$60,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam<",
+        "imagem": "https://github.com/Quitandir/alurachallenge/blob/main/imagens/star-wars-3.png?raw=true"
+      },{
+        "categoria": "Star Wars",
+        "nome": "Produto XYZ",
+        "preco": "R$60,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam<",
+        "imagem": "https://github.com/Quitandir/alurachallenge/blob/main/imagens/star-wars-4.png?raw=true"
+      },
+      {
+        "categoria": "Star Wars",
+        "nome": "Produto XYZ",
+        "preco": "R$60,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam<",
+        "imagem": "https://github.com/Quitandir/alurachallenge/blob/main/imagens/star-wars-5.png?raw=true"
+      },
+      {
+        "categoria": "Star Wars",
+        "nome": "Produto XYZ",
+        "preco": "R$60,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam<",
+        "imagem": "https://github.com/Quitandir/alurachallenge/blob/main/imagens/star-wars-6.png?raw=true"
+      },
+      
+      {
+        "categoria": "Consoles",
+        "nome": "Controle Caixa X",
+        "preco": "R$60,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam<",
+        "imagem": "https://github.com/Quitandir/alurachallenge/blob/main/imagens/console-1.png?raw=true?raw=true"
+      },
+      {
+        "categoria": "Consoles",
+        "nome": "PS5",
+        "preco": "R$60,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam<",
+        "imagem": "https://github.com/Quitandir/alurachallenge/blob/main/imagens/console-2.png?raw=true"
+      },
+      {
+        "categoria": "Consoles",
+        "nome": "NES",
+        "preco": "R$60,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam<",
+        "imagem": "https://github.com/Quitandir/alurachallenge/blob/main/imagens/console-3.png?raw=true"
+      },{
+        "categoria": "Consoles",
+        "nome": "Switch",
+        "preco": "R$60,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam<",
+        "imagem": "https://github.com/Quitandir/alurachallenge/blob/main/imagens/console-4.png?raw=true"
+      },
+      {
+        "categoria": "Consoles",
+        "nome": "Caixa",
+        "preco": "R$60,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam<",
+        "imagem": "https://github.com/Quitandir/alurachallenge/blob/main/imagens/console-5.png?raw=true"
+      },
+      {
+        "categoria": "Consoles",
+        "nome": "Menino do game",
+        "preco": "R$60,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam<",
+        "imagem": "https://github.com/Quitandir/alurachallenge/blob/main/imagens/console-6.png?raw=true"
+      },
+      {
+        "categoria": "Diversos",
+        "nome": "Camiseta Atari",
+        "preco": "R$60,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam<",
+        "imagem": "https://github.com/Quitandir/alurachallenge/blob/main/imagens/diversos-1.png?raw=true?raw=true"
+      },
+      {
+        "categoria": "Diversos",
+        "nome": "Produto XYZ",
+        "preco": "R$60,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam<",
+        "imagem": "https://github.com/Quitandir/alurachallenge/blob/main/imagens/diversos-2.png?raw=true"
+      },
+      {
+        "categoria": "Diversos",
+        "nome": "Sonic",
+        "preco": "R$60,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam<",
+        "imagem": "https://github.com/Quitandir/alurachallenge/blob/main/imagens/diversos-3.png?raw=true"
+      },{
+        "categoria": "Diversos",
+        "nome": "Produto XYZ",
+        "preco": "R$60,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam<",
+        "imagem": "https://github.com/Quitandir/alurachallenge/blob/main/imagens/diversos-4.png?raw=true"
+      },
+      {
+        "categoria": "Diversos",
+        "nome": "Picachu",
+        "preco": "R$60,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam<",
+        "imagem": "https://github.com/Quitandir/alurachallenge/blob/main/imagens/diversos-5.png?raw=true"
+      },
+      {
+        "categoria": "Diversos",
+        "nome": "Produto XYZ",
+        "preco": "R$60,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam<",
+        "imagem": "https://github.com/Quitandir/alurachallenge/blob/main/imagens/diversos-6.png?raw=true"
+      }
+    ]
+}      

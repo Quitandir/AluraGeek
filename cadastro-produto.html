@@ -31,31 +31,30 @@
     </header>
     <main>
         <div>            
-            <form class="login-cadastro-produto">
+            <form class="login-cadastro-produto" data-formulario>
                 <p id="add-novo-produto">Adicionar Novo Produto</p>
 
-                <label class="picture" for="picture__input" tabIndex="0">
-                        <span class="picture__image"></span>
-                </label>
-                <input type="file" name="picture__input" id="picture__input">
-                <span class="erro-imagem-cadastro"></span>                  
+                <label id="placeholder" for="imagem">Imagem</label>                               
+                <input type="text" id="imagem" placeholder="Imagem" data-formulario="imagem">
+                <span class="erro-categoria-cadastro"></span>                  
 
                 <label id="placeholder" for="categoria">Categoria</label>                               
-                <input type="text" id="categoria" placeholder="Consoles">
+                <input type="text" id="categoria" placeholder="Consoles" data-formulario="categoria">
                 <span class="erro-categoria-cadastro"></span>   
 
                 <label id="placeholder" for="nome-produto">Nome do produto</label>
-                <input type="text" id="nome-produto" placeholder="Produto XYZ">
+                <input type="text" id="nome-produto" placeholder="Produto XYZ" data-formulario="nome">
                 <span class="erro-nome-cadastro"></span>   
 
                 <label id="placeholder" for="preco-produto">Preço do produto</label>
-                <input type="text" id="preco-produto" step="any" placeholder="R$60,00">
+                <input type="text" id="preco-produto" placeholder="R$60,00" required data-formulario="preco">
                 <span class="erro-preco-cadastro"></span>   
 
-                <textarea id="descricao-produto" placeholder="Descrição do produto" rows="4" cols="65"></textarea>
+                <textarea id="descricao-produto" placeholder="Descrição do produto" rows="4" cols="65" data-formulario="descricao"></textarea>
                 <span class="erro-descricao-cadastro"></span>   
 
-                <button id="botao-add-produto">Adicionar produto</button>
+                <button type="button" id="botao-add-produto" data-botao="botaoAddProduto">Adicionar produto</button>
+                <span class="erro-descricao-cadastro" data-cadastroConcluido></span>
             </form>      
         </div>
     </main>
@@ -94,7 +93,7 @@
     </footer>
 </body>
 <script src="./js/validacao-rodape.js"></script>
-<script src="./js/"></script>
 <script src="./js/validacao-cadastro-produto.js"></script>
-
+<script src="./js/criaProduto.js" type="module"></script>
+<script src="https://github.com/codermarcos/simple-mask-money/releases/download/v3.0.0/simple-mask-money.js"></script>
 </html>

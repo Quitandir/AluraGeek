@@ -14,7 +14,6 @@ var botaoAddProduto = document.querySelector('#botao-add-produto')
 
 var categoriaValida = false;
 var nomeValido = false;
-var precoValido = false;
 var descricaoValida = false;
 
 botaoAddProduto.addEventListener('click', function(event) {
@@ -23,12 +22,8 @@ botaoAddProduto.addEventListener('click', function(event) {
 
     validaCategoria();
     validaNome();
-    validaPreco();
     validaDescricao();
 
-    if(categoriaValida && nomeValido && precoProdutoCadastro.value != '' && precoValido && descricaoValida) {
-        alert('Produto cadastrado.')
-    }
 })  
 
 function validaCategoria() {
@@ -61,21 +56,4 @@ function validaDescricao() {
     }
 }
 
-function validaPreco() {
-    let precoRegex = /^(R\$)(\.*)[\d\,]+$/g;
-    if(precoProdutoCadastro.value.match(precoRegex)){
-        precoValido = true;
-        erroPreco.innerHTML = '';
-    } else {
-        erroPreco.innerHTML = 'Preço em formato inválido.'
-    }
 
-    if (precoProdutoCadastro.value == "") {
-        erroPreco.innerHTML = 'O preço não pode estar em branco.'
-    } 
-}
-
-precoProdutoCadastro.addEventListener('blur', function(event){
-    var precoFormatado = "R$" + precoProdutoCadastro.value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
-    precoProdutoCadastro.value = precoFormatado; 
-})
