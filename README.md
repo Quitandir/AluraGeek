@@ -27,7 +27,7 @@ Para isso eles estão solicitando a nossa ajuda como desenvolvedores para criar 
 
 - HTML
 - CSS
--JS
+- JS
 
 ---
 
@@ -43,11 +43,14 @@ O desafio foi dividido em três estágios dividios em semana 1, semana 2 e seman
 
 Ao final desse mês, percebo que, por mais que não tenha conseguido concluir todas os desafios no prazo estipulado, o volume de conhecimento que adquiri é enorme. Ter que reproduzir visualmente e aplicar JS para fazer a validação dos formulários colocou em prova tudo que havia estudado até o momento. Ao passo que estudarei mais seguirei desenvolvendo o projeto para concluir as funcionalidades que ainda não sei como fazer.
 
+Update 1: Após alguns meses longe do projeto, terminei alguns cursos que me ensinaram a mockar um banco de dados usando JSON. Com isso consegui fazer algumas modificações no projeto para atender algumas demandas iniciais que não sabia como fazer. Tive que tirar os produtos listados no HTML e inserí-los no banco de dados. Usando JavaScript, implementei features para buscar no banco de dados e exibir os produtos na index.html. Depois desenvolvi uma barra de busca, filtrando produtos por nome pesqusiado, e por último implementei na página de cadastro de produto essa funcionalidade, criando a possibilidade de adicionar novos produtos no banco de dados.
+
+Tentei também implementar um sistema para mostrar a página de descrição do produto, com informações detalhadas, clicando em "ver mais", a partir da index. Essa última implementação, entretanto, não foi concluída, pois não consegui encontrar um jeito de relacionar informações capturadas no html com seus pares no banco de dados.
+
 ---
 
 ## Melhorias a serem desenvolvidas
 
 * Separação do CSS.
 * Aperfeiçoamento das separações do HTML conforme boas práticas.
-* Desenvolvimento da barra de busca com os ítens em index.html.
 * Aperfeiçoamento das validações através de refatoração. 
