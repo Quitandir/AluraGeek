@@ -1,5 +1,5 @@
 //seletores dos campos de input
-var categoriaProdutoCadastro = document.querySelector('#categoria');
+var categoriaProdutoCadastro = document.querySelector('#categoria-produto');
 var nomeProdutoCadastro = document.querySelector('#nome-produto');
 var precoProdutoCadastro = document.querySelector('#preco-produto');
 var descricaoProdutoCadastro = document.querySelector('#descricao-produto');

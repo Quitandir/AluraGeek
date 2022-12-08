@@ -4,6 +4,7 @@ const listaStarWars = document.querySelector('[data-lista="starWars"]');
 const listaConsoles = document.querySelector('[data-lista="consoles"]');
 const listaDiversos = document.querySelector('[data-lista="diversos"]');
 
+
 export default function constroiProduto(imagem,  nome,  preco) {
     const produto = document.createElement("li");
     produto.className = "produto";
@@ -11,10 +12,10 @@ export default function constroiProduto(imagem,  nome,  preco) {
     produto.innerHTML = 
     `  
     <div class="produto">
-        <img class="imagem-produto" src="${imagem}">
+        <img class="imagem-produto" src="${imagem}" >
         <p class="nome-produto">${nome}</p>
         <p class="preco-produto">${preco}</p>
-        <a class="link-produto">Ver produto</a>
+        <button class="link-produto" data-botao-verMais>Ver produto</button >
     </div>
     `
         
@@ -25,9 +26,7 @@ async function listaProdutos () {
 
     try{
         const listaAPI = await conectaAPI.listaProdutos ();
-        console.log(listaAPI);
-
-       
+               
         listaAPI.forEach( (element) => {
             if (element.categoria == "Star Wars") {
                 listaStarWars.appendChild(constroiProduto(element.imagem, element.nome, element.preco))
@@ -47,4 +46,7 @@ async function listaProdutos () {
 }
 
 listaProdutos();
+
+
+
 
